@@ -10,7 +10,7 @@ exports.create = async (request, response) => {
         const passwordHash = await bcrypt.hash(userData.password, 10);
         const existsEmail = await findUserByEmail(userData);
 
-        if (!existsEmail || existsEmail.length > 0) {
+        if (existsEmail) {
             return response.status(401).json({ message: 'USER_EMAIL_EXISTS' });
         }
 
@@ -19,6 +19,7 @@ exports.create = async (request, response) => {
             password: passwordHash,
         });
         await user.save();   
+
 
         response.status(200).json({ message: 'ok' });
     } catch (error) {
