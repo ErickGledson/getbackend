@@ -20,13 +20,13 @@ Para acessar diretamente a API, em seu navegador digite: `localhost:9000`.
 Para acessar pelo tunelamento feito com o ngrok, digite: `localhost:4040  e então pegue a URL que ele fornece (desse jeito, qualquer pessoa na internet pode acessar ao possuir a URL).
 
 As URLs da API:
-- [POST] `/api/user` - Cria um novo usuário
-- [POST] `/api/user/login` - Fazer login
-- [GET] `api/project` - Listagem de projetos
-- [GET] `api/project/<id>` - Obtem um projeto por ID
-- [POST] `api/project` - Cria um novo projeto
-- [PUT] `api/project/<id>` - Atualiza um projeto por ID
-- [DELETE] `api/project/<id>` - Deleta um projeto por ID
+- `[POST]` `/api/user` - Cria um novo usuário
+- `[POST]` `/api/user/login` - Fazer login
+- `[GET]` `api/project` - Listagem de projetos
+- `[GET]` `api/project/<id>` - Obtem um projeto por ID
+- `[POST]` `api/project` - Cria um novo projeto
+- `[PUT]` `api/project/<id>` - Atualiza um projeto por ID
+- `[DELETE]` `api/project/<id>` - Deleta um projeto por ID
 
 Utilize este projeto com o https://github.com/bkkater/meinveste-mobile
 
