@@ -17,7 +17,7 @@ Sendo assim, rode o seguinte comando:
 Com ele, o docker levantará 3 containers: nodejs, mongodb e o ngrok.
 
 Para acessar diretamente a API, em seu navegador digite: `localhost:9000`.
-Para acessar pelo tunelamento feito com o ngrok, digite: `localhost:4040  e então pegue a URL que ele fornece (desse jeito, qualquer pessoa na internet pode acessar ao possuir a URL).
+Para acessar pelo tunelamento feito com o ngrok, digite: `localhost:4040`  e então pegue a URL que ele fornece (desse jeito, qualquer pessoa na internet pode acessar ao possuir a URL).
 
 As URLs da API:
 - `[POST]` `/api/user` - Cria um novo usuário
